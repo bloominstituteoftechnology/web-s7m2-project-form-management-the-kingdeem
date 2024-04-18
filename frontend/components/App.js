@@ -60,7 +60,7 @@ export default function App() {
     // This takes the values of the form and constructs a new member object,
     // which is then concatenated at the end of the `members` state
     const newMember = {fname, lname, bio, id:getId()}
-    setMembers([... members, newMember])
+    setMembers([...members, newMember])
   }
   const editExistingMember = () => {
     // ✨ This takes the values of the form and replaces the data of the
